@@ -108,8 +108,8 @@ ol {
 }
 
 .content__list-item {
-  padding-left: 3px;
   padding-right: 3px;
+  padding-left: 3px;
 }
 
 .search-form {
@@ -230,9 +230,9 @@ fieldset {
   width: fit-content;
 }
 
-.search-form__label:hover {
-  cursor: pointer;
+.search-form__checkbox-list .search-form__label:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .search-form__label:has(:focus-visible) {
