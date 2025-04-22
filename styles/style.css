@@ -230,6 +230,11 @@ fieldset {
   width: fit-content;
 }
 
+.search-form__label:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .search-form__label:has(:focus-visible) {
  outline: 1px solid white;
  outline-offset: 1px;
@@ -273,11 +278,6 @@ fieldset {
  left: 1px;
  width: 15px;
  height: 15px;
-}
-
-.search-form__label-text:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .button {
